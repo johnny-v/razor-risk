@@ -67,9 +67,6 @@ export function App() {
     }
   }
 
-
-  console.log(trades);
-
   return (
     <>
       <div className="flex h-screen">
