@@ -84,6 +84,7 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 - Add Unit Tests
 - Add E2E Tests
 - Deploy Pipeline
+- Add StoryBook
 
 ## ☁ Nx Cloud
 
