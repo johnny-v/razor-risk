@@ -86,6 +86,12 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 - Deploy Pipeline
 - Add StoryBook
 
+## Assumptions:
+Used NX to enable large scale scalability of projects and high degree of reusability of components.
+Used zustand as a replacement for redux as it is much more simpler and reduces unnecessary boilerplate.
+Used tailwind css to speed up styling of custom components.
+Decided to build own components to test React knowledge as much as possible.
+
 ## ☁ Nx Cloud
 
 ### Distributed Computation Caching & Distributed Task Execution
