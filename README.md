@@ -79,7 +79,11 @@ Run `nx graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
 
-
+## TO DO:
+- Add Linter + prettier at commit level
+- Add Unit Tests
+- Add E2E Tests
+- Deploy Pipeline
 
 ## ☁ Nx Cloud
 

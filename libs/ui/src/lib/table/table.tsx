@@ -14,7 +14,7 @@ export interface Column {
 }
 
 export interface Row {
-  [key: string]: string | number
+  [key: string]: string | number;
 }
 
 export function Table(props: TableProps) {

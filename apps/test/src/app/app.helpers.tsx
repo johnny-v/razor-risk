@@ -1,6 +1,6 @@
 function formatNumberDecimalPlaces(decimal: number) {
-  return function(number: number) {
-    return Number(number.toFixed(decimal)).toLocaleString('en', {
+  return function(number: string | number) {
+    return Number(parseFloat(number.toString().replace(/,/g, '')).toFixed(decimal)).toLocaleString('en', {
       minimumFractionDigits: decimal
     });
   };
