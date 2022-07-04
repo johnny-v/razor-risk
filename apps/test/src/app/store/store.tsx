@@ -41,7 +41,6 @@ const useStore = create<AppState>()((set) => ({
       name: 'Trade Owner',
     }],
   formatters: {
-    tradePrice: formatNumberDecimalPlaces(2),
     tradeVolume: formatNumberDecimalPlaces(0),
   },
   rows: [
